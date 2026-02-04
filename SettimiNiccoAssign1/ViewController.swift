@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         
         let kToMAction = UIAlertAction(title: "Kilometers To Miles", style: .default) {_ in self.conversionTypeBtn.setTitle("Km to Miles", for: .normal)}
               
-        let mToKAction = UIAlertAction(title: "Miles To KImeters", style: .default) {_ in self.conversionTypeBtn.setTitle("Miles to Km", for: .normal)}
+        let mToKAction = UIAlertAction(title: "Miles To Kilometers", style: .default) {_ in self.conversionTypeBtn.setTitle("Miles to Km", for: .normal)}
         
         actionSheet.addAction(cToFAction)
         actionSheet.addAction(fToCAction)
